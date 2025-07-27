@@ -8,9 +8,14 @@
 </head>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap");
 
     body {
-        margin: 0;
+        max-width: 1440px;
+        margin: auto;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(63, 6, 65, 1) 50%, rgba(0, 0, 0, 1) 100%);
+        border: #FFC5FE 1px solid;
     }
 
     .header {
@@ -30,9 +35,108 @@
         text-shadow: #FFC5FE 0px 0px 25px;
         display: flex;
         font-size: 24px;
-        gap: 150px;
+        gap: 80px;
         margin-right: 100px;
         font-family: Pixelify Sans, sans-serif;
+    }
+
+    .back-icon {
+        padding: 50px 0 0 40px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 64px;
+        margin: 0;
+        font-family: Pixelify Sans, sans-serif;
+    }
+
+    h2 {
+        color: white;
+        font-size: 32px;
+        font-family: Tilt Neon, sans-serif;
+        padding-left: 90px;
+    }
+
+    p {
+        color: white;
+        width: 65%;
+        text-align: justify;
+        line-height: 160%;
+        font-size: 16px;
+        font-family: Plus Jakarta Sans, sans-serif;
+        padding-left: 90px;
+    }
+
+    .banner {
+        display: flex;
+    }
+
+    .title {
+        display: flex;
+        padding-top: 110px;
+    }
+
+    .freddy-info {
+        padding-left: 80px;
+    }
+
+    .freddy-icon {
+        width: 80px;
+        margin-right: 10px;
+    }
+
+    .freddy {
+        margin-left: 20%;
+    }
+
+    .freddy-jumpscare {
+        width: 550px;
+        padding-left: 90px;
+        padding-top: 10px;
+    }
+
+    .button {
+        display: flex;
+        background-color: #D256CC;
+        color: white;
+        font-size: 32px;
+        font-family: Tilt Neon, sans-serif;
+        align-items: center;
+        margin-left: 75%;
+        padding: 5px 10px;
+        border: none;
+    }
+
+    .text {
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .footer {
+        background-color: #131313;
+        margin-top: 70px;
+    }
+
+    .footer-text {
+        color: white;
+        font-size: 12px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-family: Piazzolla, sans-serif;
+        text-align: center;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    .footer-icon {
+        width: 50px;
+        margin: 0 10px;
     }
 </style>
 
@@ -46,6 +150,49 @@
             <div>CHARACTER</div>
             <div>FOUNDER</div>
             <div>CONTACT</div>
+        </div>
+    </div>
+
+    <div><img src="freddy-image/back icon.png" alt="Back-icon" class="back-icon"></div>
+
+    <div class="banner">
+        <div><img src="freddy-image/freddy.png" alt="freddy-image" class="freddy"></div>
+        <div class="freddy-info">
+            <div class="title">
+                <img src="freddy-image/f icon.png" alt="Freddy icon" class="freddy-icon">
+                <h1>FREDDY</h1>
+            </div>
+
+            <div>
+                <h2>Character setting:</h2>
+                <p>A typical stage protagonist, a friendly image that symbolizes a mascot, but his essence is extremely
+                    dangerous after being "possessed".</p>
+            </div>
+
+            <div>
+                <h2>Story:</h2>
+                <p>Freddy Fazbear is the central antagonist and mascot of Five Nights at Freddy's. He is an animatronic
+                    bear. Along with the other animatronics, he wanders the pizzeria until 6 AM. Freddy has appeared in
+                    various forms throughout the series.</p>
+            </div>
+
+            <img src="freddy-image/freddy jumpscare.gif" alt="Freddy dancing" class="freddy-jumpscare">
+        </div>
+    </div>
+
+    <button class="button">
+        <img src="freddy-image/black freddy icon.png" alt="black icon">
+        <h2 class="text">Bonnie</h2>
+        <img src="freddy-image/next icon.png" alt="next icon">
+    </button>
+
+    <div class="footer">
+        <div class="footer-text">Copyright | 2025 Five Nights Of Freddy’s</div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/scott_cawthon__/"><img src="freddy-image/instargram.png"
+                    alt="instargram icon" class="footer-icon"></a>
+            <a href="https://x.com/real_scawthon__"><img src="freddy-image/twitter.png" alt="twitter icon"
+                    class="footer-icon"></a>
         </div>
     </div>
 </body>
