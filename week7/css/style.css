@@ -808,6 +808,242 @@
         .buttons {
             width: 100%;
         }
+
+        .text {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .text h2 {
+            font-size: 30px;
+        }
+
+        .text p {
+            font-size: 16px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .card-section {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            width: 70%;
+        }
+
+        .card-image img {
+            width: auto;
+        }
+
+        .paycard {
+            width: 70%;
+        }
+
+        .paycard-image img {
+            width: auto;
+        }
+
+        .socialcard {
+            width: 70%;
+        }
+
+        .socialcard-image img {
+            width: auto;
+        }
+
+        .emailcard {
+            width: 70%;
+        }
+
+        .emailcard-image img {
+            width: auto;
+        }
+
+        .contentcard {
+            width: 70%;
+        }
+
+        .contentcard-image img {
+            width: auto;
+        }
+
+        .analyticscard {
+            width: 70%;
+        }
+
+        .analyticscard-image img {
+            width: auto;
+        }
+
+        .cta-banner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta-banner img {
+            display: none;
+        }
+
+        .cta-banner div {
+            width: 70%;
+        }
+
+        .cta-content {
+            padding-top: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .cta-title {
+            font-size: 24px;
+        }
+
+        .cta-text {
+            font-size: 16px;
+        }
+
+        .subheading-text {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .case-studies-section {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .case-card {
+            border-right: none;
+            border-bottom: 1px solid white;
+            margin-bottom: 20px;
+        }
+
+        .case-card:last-child {
+            border-bottom: none;
+            margin-bottom: 0px;
+        }
+
+        .process {
+            width: 90%;
+            padding: 20px;
+        }
+
+        .process-title {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .process-text {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .extraprocess {
+            width: 90%;
+            padding: 20px;
+        }
+
+        .extraprocess-title {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .teammate {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team {
+            width: 80%;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team-buttons {
+            width: 50%;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .footer {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-elements {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-menu {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-menu a {
+            margin-bottom: 50px;
+        }
+
+        .footer-banner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-contact {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-contact p {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-cta {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .footer-cta div {
+            width: 100%;
+            text-align: center;
+        }
+
+        .email {
+            width: 100%;
+            text-align: center;
+        }
+
+        .subscribe {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-privacy {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-privacy div {
+            padding-right: 0;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .privacy a {
+            text-decoration: none;
+        }
     }
 
     @media screen and (max-width: 600px) {
@@ -826,4 +1062,303 @@
         .buttons {
             width: 100%;
         }
+
+        h1 {
+            font-size: 35px;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin: 0px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .banner {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .banner div {
+            width: 80%;
+        }
+
+        .mobile-menu {
+            display: block;
+        }
+
+        .logo {
+            width: 100%;
+        }
+
+        .text {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .text h2 {
+            font-size: 30px;
+        }
+
+        .text p {
+            font-size: 16px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .card-section {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            width: 70%;
+        }
+
+        .card-image img {
+            width: auto;
+        }
+
+        .paycard {
+            width: 70%;
+        }
+
+        .paycard-image img {
+            width: auto;
+        }
+
+        .socialcard {
+            width: 70%;
+        }
+
+        .socialcard-image img {
+            width: auto;
+        }
+
+        .emailcard {
+            width: 70%;
+        }
+
+        .emailcard-image img {
+            width: auto;
+        }
+
+        .contentcard {
+            width: 70%;
+        }
+
+        .contentcard-image img {
+            width: auto;
+        }
+
+        .analyticscard {
+            width: 70%;
+        }
+
+        .analyticscard-image img {
+            width: auto;
+        }
+
+        .cta-banner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta-banner img {
+            display: none;
+        }
+
+        .cta-banner div {
+            width: 70%;
+        }
+
+        .cta-content {
+            padding-top: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .cta-title {
+            font-size: 24px;
+        }
+
+        .cta-text {
+            font-size: 16px;
+        }
+
+        .subheading-text {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .case-studies-section {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .case-card {
+            border-right: none;
+            border-bottom: 1px solid white;
+            margin-bottom: 20px;
+        }
+
+        .case-card:last-child {
+            border-bottom: none;
+            margin-bottom: 0px;
+        }
+
+        .process {
+            width: 90%;
+            padding: 20px;
+        }
+
+        .process-title {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .process-text {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .extraprocess {
+            width: 90%;
+            padding: 20px;
+        }
+
+        .extraprocess-title {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .teammate {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team {
+            width: 80%;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team-buttons {
+            width: 50%;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .footer {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-elements {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-menu {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-menu a {
+            margin-bottom: 50px;
+        }
+
+        .footer-banner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-contact {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-contact p {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-cta {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .footer-cta div {
+            width: 100%;
+            text-align: center;
+        }
+
+        .email {
+            width: 100%;
+            text-align: center;
+        }
+
+        .subscribe {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-privacy {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-privacy div {
+            padding-right: 0;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .privacy a {
+            text-decoration: none;
+        }
+
+        .footer-privacy p {
+            text-align: center;
+        }
+
+        .footer-privacy {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-privacy div {
+            padding-right: 0;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .privacy a {
+            text-decoration: none;
+        }
+
+        .footer-privacy p {
+            text-align: center;
+        }
+
+
     }
