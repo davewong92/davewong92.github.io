@@ -7,7 +7,28 @@
     <title>Positivus - Home</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+    .submenu {
+        display: none;
+        position: absolute;
+        width: 220px;
+        z-index: 1;
+        background-color: #ff7a7a;
+    }
 
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu a {
+        display: block;
+        padding: 5px;
+    }
+
+    .submenu a:hover {
+        background-color: #ff4c4c;
+    }
+</style>
 
 <body>
     <div class="container">
@@ -15,7 +36,13 @@
             <div><img src="image/logo.png" alt="logo image" width="220"></div>
             <div class="menu">
                 <div><a href="about.html"> About us </a></div>
-                <div><a href="services.html">Services</a></div>
+                <div class="menu-item">
+                    <a href="services.html">Services</a>
+                    <div class="submenu">
+                        <a href="#">Web Development</a>
+                        <a href="#">App Development</a>
+                    </div>
+                </div>
                 <div><a href="use.html">Use Cases</a></div>
                 <div><a href="pricing.html">Pricing</a></div>
                 <div><a href="blog.html">Blog</a></div>
