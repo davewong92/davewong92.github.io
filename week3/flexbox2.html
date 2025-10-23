@@ -51,6 +51,25 @@
         padding-top: 5px;
         height: 34px;
     }
+
+    .third-container {
+        margin-top: 5%;
+        padding: 15px;
+        border: 1px solid black;
+    }
+
+    .third-header {
+        display: flex;
+    }
+
+    .nav {
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .contact {
+        display: flex;
+    }
 </style>
 
 <body>
@@ -73,18 +92,17 @@
     <div class="third-container">
         <div class="third-header">
             <div><img src="image/logo.png"></div>
-            <div>
+            <div class="nav">
                 <h3>Home</h3>
                 <h3>Services</h3>
                 <h3>Work</h3>
                 <h3>Project Details</h3>
                 <h3>Contact</h3>
             </div>
-            <div>
-                <img src="image/phone.png">
-                <h3>555-123-4567</h3>
+            <div class="contact">
+                <img src="image/phone.png" class="icon">
+                <h3 class="num">555-123-4567</h3>
             </div>
-            <button>Contact</button>
         </div>
     </div>
 </body>
