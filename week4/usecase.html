@@ -170,6 +170,34 @@
     .box p {
         text-align: center;
     }
+
+    @media screen and (max-width: 1171px) {
+        .banner {
+            flex-direction: column;
+        }
+
+        .banner h1 {
+            order: 1;
+        }
+
+        .banner p {
+            order: 3;
+        }
+
+        .banner-image {
+            order: 2;
+        }
+    }
+
+    @media screen and (max-width: 1061px) {
+        .menu {
+            display: none;
+        }
+
+        .menu-bar {
+            display: block;
+        }
+    }
 </style>
 
 <body>
