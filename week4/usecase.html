@@ -227,7 +227,7 @@
 
         .second-image {
             display: block;
-            width: 50%;
+            width: 60%;
         }
     }
 
@@ -281,6 +281,25 @@
         .second-arrow {
             display: flex;
             align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .banner {
+            margin-top: 0;
+            padding: 0;
+        }
+
+        .banner-text h1 {
+            font-size: 43px;
+        }
+
+        .banner-text p {
+            font-size: 16px;
+        }
+
+        .second-image {
+            width: 100%;
         }
     }
 </style>
