@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivus (usecase)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: "Space Grotesk", Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 0 24px 0;
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .menu a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    button {
+        background-color: white;
+        font-size: 20px;
+        border: 1px solid #000;
+        border-radius: 9px;
+        padding: 20px 30px;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .case {
+        background-color: #B9FF66;
+        padding: 10px 1px;
+        border-radius: 10px;
+    }
+
+    .banner {
+        display: flex;
+        background-color: #F3F3F3;
+        border-radius: 40px;
+        padding: 50px 0;
+        align-items: center;
+        margin-top: 50px;
+        gap: 15%;
+    }
+
+    .image {
+        width: 40%;
+    }
+
+    .banner-text {
+        width: 40%;
+    }
+
+    .banner h1 {
+        font-size: 60px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .banner p {
+        width: 95%;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .banner-image {
+        width: 100%;
+        padding-left: 20%;
+    }
+
+    .second-image {
+        display: none;
+    }
+
+    .star {
+        display: none;
+        width: 5%;
+        padding-top: 35px;
+    }
+
+    .star-text {
+        display: flex;
+    }
+
+    .second-star {
+        display: none;
+    }
+
+    .second-star h3 {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        background-color: #191A23;
+        padding: 40px 70px;
+        border-radius: 40px;
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+
+    .content-text {
+        width: 50%;
+    }
+
+    .content-text h2 {
+        font-size: 35px;
+        font-weight: 500;
+        background-color: #B9FF66;
+        width: 77%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .content-text h3 {
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        width: 65%;
+        padding-top: 30px;
+    }
+
+    .content-text p {
+        color: white;
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    .arrow {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .arrow p {
+        color: #B9FF66;
+        padding-left: 10px;
+        padding-top: 0;
+    }
+
+    .content-box {
+        display: flex;
+        width: 45%;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-content: center;
+    }
+
+    .box {
+        width: calc(25% - 7.5px);
+        background-color: white;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .box h2 {
+        margin: 0;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .box p {
+        text-align: center;
+    }
+
+    .second-arrow {
+        display: none;
+    }
+
+    .second-arrow p {
+        color: #B9FF66;
+        padding-left: 10px;
+        padding-top: 0;
+    }
+
+    @media screen and (max-width: 1061px) {
+        .menu {
+            display: none;
+        }
+
+        .menu-bar {
+            display: block;
+        }
+
+        .banner-text {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .banner {
+            flex-direction: column;
+        }
+
+        .image {
+            display: none;
+        }
+
+        .second-image {
+            display: block;
+            width: 60%;
+        }
+    }
+
+    @media screen and (max-width: 920px) {
+        .content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content-text {
+            width: 100%;
+        }
+
+        .content-text h2 {
+            display: none;
+        }
+
+        .star {
+            display: flex;
+            padding-top: 0;
+        }
+
+        .star-image {
+            width: 50px;
+            height: 55px;
+        }
+
+        .second-star {
+            display: flex;
+        }
+
+        .second-star h3 {
+            display: block;
+            color: #B9FF66;
+            padding-top: 0;
+            margin-top: 10px;
+        }
+
+        .content-box {
+            flex-direction: column;
+            padding-top: 20px;
+            width: auto;
+        }
+
+        .box {
+            width: auto;
+        }
+
+        .arrow {
+            display: none;
+        }
+
+        .second-arrow {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .banner {
+            margin-top: 0;
+            padding: 0;
+        }
+
+        .banner-text h1 {
+            font-size: 43px;
+        }
+
+        .banner-text p {
+            font-size: 16px;
+        }
+
+        .second-image {
+            width: 100%;
+        }
+
+        .content-text h3 {
+            font-size: 20px;
+            padding-top: 0;
+            width: 100%;
+        }
+
+        .content-text p {
+            width: 100%;
+            padding-top: 0;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div><img src="image/positivus.png" width="220"></div>
+            <div class="menu">
+                <div><a href="about.html">About Us</a></div>
+                <div><a href="services.html">Services</a></div>
+                <div class="case"><a href="use-cases.html">Use Cases</a></div>
+                <div><a href="pricing.html">Pricing</a></div>
+                <div><a href="blog.html">Blog</a></div>
+                <div><button>Request a quote</button></div>
+            </div>
+            <div><img src="image/menu bar.png" class="menu-bar"></div>
+        </div>
+
+        <div class="banner">
+            <div class="image">
+                <img src="image/banner 2.png" class="banner-image">
+            </div>
+            <div class="banner-text">
+                <h1>Proven Success Stories</h1>
+                <div class="second-image"><img src="image/banner 2.png" alt="usercase" width="100%"></div>
+                <p>See how our innovative digital marketing strategies have transformed businesses. Whether through SEO,
+                    PPC, social media, or web design, these use cases highlight the tangible impact of our work. Explore
+                    the successes and envision what we can achieve together.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-text">
+                <div class="star-text">
+                    <div class="second-star">
+                        <img src="image/star.png" class="star-image" width="50px">
+                        <h3>FEATURED</h3>
+                    </div>
+                    <h2>Featured Success Story</h2>
+                </div>
+                <h3>Scalling Success for a Leading E-Commerce Brand</h3>
+                <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase
+                    visibility, drive
+                    traffic, and boost sales.</p>
+                <div class="arrow">
+                    <img src="image/arrow.png" width="50px">
+                    <p>Read</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <div class="box">
+                    <h2>200%</h2>
+                    <p>increase in organic traffic</p>
+                </div>
+                <div class="box">
+                    <h2>150%</h2>
+                    <p>rise in online sales</p>
+                </div>
+                <div class="box">
+                    <h2>75%</h2>
+                    <p>reduction in cost-per-click (CPC)</p>
+                </div>
+                <div class="box">
+                    <h2>300%</h2>
+                    <p>improvement in conversion rate</p>
+                </div>
+                <div class="second-arrow">
+                    <img src="image/arrow.png" width="50px">
+                    <p>Read</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
