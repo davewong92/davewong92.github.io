@@ -72,6 +72,30 @@ p {
     text-decoration: none;
 }
 
+.projects {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.projects a {
+    font-family: 'Outfit', sans-serif;
+    display: block;
+    margin-top: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.week1 {
+    color: #ffffff;
+    background-color: #6aabf5;
+    margin: 20px;
+    padding: 40px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
 .week2 {
     color: #ffffff;
     background-color: #6aabf5;
@@ -149,6 +173,18 @@ p {
     .project {
         flex-direction: column;
         margin: 30px;
+        margin-bottom: 0;
+    }
+
+    .projects {
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+    }
+
+    .week1 {
+        width: 90%;
+        margin: 10px;
     }
 
     .week2 {
@@ -168,6 +204,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+    .week1 {
+        margin-left: 0;
+    }
+
     .week2 {
         margin-left: 0;
     }
@@ -182,6 +222,10 @@ p {
 }
 
 @media screen and (max-width: 425px) {
+    .week1 {
+        width: 80%;
+    }
+
     .week2 {
         width: 80%;
     }
