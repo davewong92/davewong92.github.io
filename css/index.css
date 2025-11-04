@@ -144,3 +144,53 @@ p {
     margin: 20px auto;
     max-width: 800px;
 }
+
+@media screen and (max-width: 1024px) {
+    .project {
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .week2 {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .week3 {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .week4 {
+        width: 90%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .week2 {
+        margin-left: 0;
+    }
+
+    .week3 {
+        margin-left: 0;
+    }
+
+    .week4 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .week2 {
+        width: 80%;
+    }
+
+    .week3 {
+        width: 80%;
+    }
+
+    .week4 {
+        width: 80%;
+    }
+}
