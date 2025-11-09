@@ -39,6 +39,10 @@ button {
     padding: 20px 30px;
 }
 
+.menu-bar {
+    display: none;
+}
+
 .banner {
     display: flex;
     margin-top: 50px;
