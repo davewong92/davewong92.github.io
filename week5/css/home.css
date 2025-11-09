@@ -4,6 +4,10 @@
     gap: 10%;
 }
 
+.banner-image {
+    display: none;
+}
+
 .banner>div {
     width: 50%;
 }
@@ -32,4 +36,25 @@
     display: flex;
     justify-content: space-between;
     margin: 60px 0;
+}
+
+@media screen and (max-width: 1061px) {
+    .banner-text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-image {
+        display: block;
+    }
+
+    .second-image {
+        display: none;
+    }
 }
