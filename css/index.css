@@ -234,6 +234,10 @@ p {
     .week4 {
         margin-left: 0;
     }
+
+    .week5 {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 425px) {
