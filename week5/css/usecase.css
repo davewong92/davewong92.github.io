@@ -148,14 +148,6 @@
 }
 
 @media screen and (max-width: 1061px) {
-    .menu {
-        display: none;
-    }
-
-    .menu-bar {
-        display: block;
-    }
-
     .banner-text {
         width: 90%;
         display: flex;
