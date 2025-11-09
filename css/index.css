@@ -211,6 +211,11 @@ p {
         width: 90%;
         margin: 10px;
     }
+
+    .week5 {
+        width: 90%;
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
