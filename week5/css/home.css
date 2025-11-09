@@ -67,3 +67,9 @@
         font-size: 60px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .logo-bar {
+        flex-wrap: wrap;
+    }
+}
