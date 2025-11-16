@@ -1,0 +1,75 @@
+.banner {
+    display: flex;
+    margin-top: 50px;
+    gap: 10%;
+}
+
+.banner-image {
+    display: none;
+}
+
+.banner>div {
+    width: 50%;
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.banner button {
+    font-size: 20px;
+    color: white;
+    background-color: #191A23;
+    border: 1px solid #000;
+    border-radius: 9px;
+    padding: 20px 30px;
+}
+
+.logo-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+@media screen and (max-width: 1061px) {
+    .banner-text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner>div {
+        width: 90%;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-image {
+        display: block;
+    }
+
+    .second-image {
+        display: none;
+    }
+
+    .banner h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-bar {
+        flex-wrap: wrap;
+    }
+}
