@@ -55,14 +55,32 @@
         padding-top: 5px;
     }
 
-    .banner {
+    .info {
         display: flex;
+        width: 20%;
+        padding: 15px;
+        margin: 15px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgb(88, 88, 88);
     }
 
     .banner img {
-        width: 40px;
-        height: 40px;
-        padding-top: 5px;
+        width: 60px;
+        height: 60px;
+        padding-top: 20px;
+    }
+
+    .banner-text {
+        padding-left: 10px;
+    }
+
+    .banner-text h2 {
+        margin: 0;
+    }
+
+    .banner-text p {
+        margin-bottom: 5px;
     }
 </style>
 
@@ -85,11 +103,13 @@
     </div>
 
     <div class="banner">
-        <img src="image/rome icon.png">
-        <div class="banner-text">
-            <p>Ongoing</p>
-            <h2>Trip to rome</h2>
-            <P>40% completed</P>
+        <div class="info">
+            <img src="image/rome icon.png">
+            <div class="banner-text">
+                <p>Ongoing</p>
+                <h2>Trip to rome</h2>
+                <P>40% completed</P>
+            </div>
         </div>
     </div>
 </body>
