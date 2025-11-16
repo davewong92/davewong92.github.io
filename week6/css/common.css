@@ -42,6 +42,34 @@ button {
     display: none;
 }
 
+.menu {
+    display: flex;
+}
+
+.submenu {
+    display: none;
+    background-color: #191A23;
+    border-radius: 10px;
+    position: absolute;
+    top: 25px;
+    width: 150px;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.submenu a {
+    display: block;
+    color: white;
+    padding: 10px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+
 @media screen and (max-width: 1061px) {
     .menu {
         display: none;
