@@ -71,8 +71,12 @@ img {
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(88, 88, 88);
     position: absolute;
-    top: -160px;
+    top: -170px;
     left: -150px;
+}
+
+.info-text {
+    display: flex;
 }
 
 .info img {
