@@ -192,13 +192,13 @@ p {
 @media screen and (max-width: 1024px) {
     .project {
         flex-direction: column;
-        margin: 30px;
+        align-items: center;
         margin-bottom: 0;
     }
 
     .projects {
         flex-direction: column;
-        margin: 30px;
+        align-items: center;
         margin-top: 10px;
     }
 
@@ -230,32 +230,6 @@ p {
     .week6 {
         width: 90%;
         margin: 10px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .week1 {
-        margin-left: 0;
-    }
-
-    .week2 {
-        margin-left: 0;
-    }
-
-    .week3 {
-        margin-left: 0;
-    }
-
-    .week4 {
-        margin-left: 0;
-    }
-
-    .week5 {
-        margin-left: 0;
-    }
-
-    .week6 {
-        margin-left: 0;
     }
 }
 
