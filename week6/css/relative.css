@@ -12,9 +12,12 @@ body {
 
 .container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.container div {
+.container>div {
+    width: 27%;
     padding: 15px;
     margin: 15px;
     border-radius: 20px;
@@ -46,13 +49,6 @@ img {
     background-color: rgb(197, 197, 197);
     position: relative;
     top: -100px;
-}
-
-.second-container {
-    display: flex;
-}
-
-.second-container div {
     padding: 15px;
     margin: 15px;
     border-radius: 20px;
@@ -60,12 +56,18 @@ img {
 
 @media screen and (max-width: 1024px) {
     .container {
-        flex-direction: column;
         align-items: center;
     }
+}
 
-    .second-container {
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width: 963px) {
+    .container>div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .container>div {
+        width: 40%;
     }
 }
