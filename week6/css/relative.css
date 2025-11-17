@@ -68,6 +68,6 @@ img {
 
 @media screen and (max-width: 615px) {
     .container>div {
-        width: 40%;
+        width: 80%;
     }
 }
