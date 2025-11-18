@@ -6,9 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .container {
+        justify-self: center;
+        background-color: rgb(79, 212, 212);
+        width: 50%;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .info {
+        display: flex;
+    }
+
+    .last {
+        padding-left: 20px;
+    }
+
+    input {
+        border-radius: 5px;
+    }
+
+    input#email {
+        width: 30%;
+        padding-bottom: 20px;
+    }
+
+    input#others {
+        margin-left: 20px;
+    }
+
+    input#intro {
+        width: 50%;
+        padding-bottom: 100px;
+    }
+
+    input#submit {
+        margin-top: 20px;
+    }
+</style>
 
 <body>
+    <div class="container">
+        <div>
+            <h1>Registration Form</h1>
+        </div>
+        <form action="/action_page.php">
+            <div>
+                <h2>Name</h2>
+            </div>
+            <div class="info">
+                <div>
+                    <label for="fname">First name :</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First name">
+                </div>
+                <div class="last">
+                    <label for="lname">Last name :</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last name">
+                </div>
+            </div>
 
+            <div>
+                <div>
+                    <h2>Date of birth</h2>
+                    <label for="date"></label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div>
+                    <h2>Email Address</h2>
+                    <label for="email">Email Address :</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                </div>
+            </div>
+
+            <div>
+                <h2>Homepage URL</h2>
+            </div>
+            <label for="url">URL :</label><br>
+            <input type="url" id="url" name="url">
+            <div>
+                <h2>Favourite Colors</h2>
+            </div>
+            <p>Please select your favorite colors :</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Red</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">Blue</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">Yellow</label><br>
+            <input type="radio" id="other" name="fav_language" value="other">
+            <label for="other">Other :</label><br>
+            <label for="other"></label>
+            <input type="text" id="others" name="other"><br>
+            <div>
+                <h2>Self Introduction</h2>
+            </div>
+            <label for="intro">Self Introdution :</label><br>
+            <input type="text" id="intro" name="intro"><br>
+
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
 </body>
 
 </html>
