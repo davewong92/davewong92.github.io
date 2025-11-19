@@ -16,10 +16,11 @@ body {
     padding: 32px 0 24px 0;
 }
 
-.menu {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.menu-toggle {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    z-index: 1001;
 }
 
 .menu a {
@@ -38,12 +39,9 @@ button {
     padding: 20px 30px;
 }
 
-.menu-bar {
-    display: none;
-}
-
 .menu {
     display: flex;
+    align-items: center;
 }
 
 .submenu {
@@ -73,10 +71,6 @@ button {
 @media screen and (max-width: 1061px) {
     .menu {
         display: none;
-    }
-
-    .menu-bar {
-        display: block;
     }
 }
 
