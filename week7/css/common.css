@@ -92,6 +92,14 @@ button {
         display: flex;
     }
 
+    .menu a {
+        color: white;
+    }
+
+    button {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
