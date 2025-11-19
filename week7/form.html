@@ -20,6 +20,14 @@
         display: flex;
     }
 
+    .second-info {
+        display: flex;
+    }
+
+    .third-info {
+        display: flex;
+    }
+
     .last {
         padding-left: 20px;
     }
@@ -28,13 +36,47 @@
         border-radius: 5px;
     }
 
+    .date {
+        width: 50%;
+    }
+
+    .email {
+        width: 50%;
+    }
+
+    .url {
+        width: 50%;
+    }
+
+    .color {
+        width: 50%;
+    }
+
+    input#fname {
+        padding: 10px;
+    }
+
+    input#lname {
+        padding: 10px;
+    }
+
     input#email {
-        width: 30%;
-        padding-bottom: 20px;
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
+    input#date {
+        padding: 10px;
+    }
+
+    input#url {
+        padding: 10px;
     }
 
     input#others {
         margin-left: 20px;
+        width: 70%;
+        padding: 10px;
     }
 
     input#intro {
@@ -67,38 +109,41 @@
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div class="second-info">
+                <div class="date">
                     <h2>Date of birth</h2>
-                    <label for="date"></label>
+                    <label for="date">Date :</label><br>
                     <input type="date" id="date" name="date">
                 </div>
-                <div>
+                <div class="email">
                     <h2>Email Address</h2>
-                    <label for="email">Email Address :</label>
+                    <label for="email">Email Address :</label><br>
                     <input type="email" id="email" name="email" placeholder="Email Address">
                 </div>
             </div>
 
-            <div>
-                <h2>Homepage URL</h2>
+            <div class="third-info">
+                <div class="url">
+                    <h2>Homepage URL</h2>
+                    <label for="url">URL :</label><br>
+                    <input type="url" id="url" name="url">
+                </div>
+
+                <div class="color">
+                    <h2>Favourite Colors</h2>
+                    <p>Please select your favorite colors :</p>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Red</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Blue</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Yellow</label><br>
+                    <input type="radio" id="other" name="fav_language" value="other">
+                    <label for="other">Other :</label><br>
+                    <label for="other"></label>
+                    <input type="text" id="others" name="other"><br>
+                </div>
             </div>
-            <label for="url">URL :</label><br>
-            <input type="url" id="url" name="url">
-            <div>
-                <h2>Favourite Colors</h2>
-            </div>
-            <p>Please select your favorite colors :</p>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">Red</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">Blue</label><br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">Yellow</label><br>
-            <input type="radio" id="other" name="fav_language" value="other">
-            <label for="other">Other :</label><br>
-            <label for="other"></label>
-            <input type="text" id="others" name="other"><br>
             <div>
                 <h2>Self Introduction</h2>
             </div>
