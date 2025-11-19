@@ -69,7 +69,7 @@ button {
 }
 
 
-@media screen and (max-width: 1061px) {
+@media screen and (max-width: 1088px) {
     .menu {
         display: none;
         flex-direction: column;
