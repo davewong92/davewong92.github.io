@@ -133,6 +133,16 @@ p {
     text-align: center;
 }
 
+.week7 {
+    color: #ffffff;
+    background-color: #6aabf5;
+    margin: 20px;
+    padding: 40px;
+    width: 23%;
+    border-radius: 10px;
+    text-align: center;
+}
+
 .week {
     display: flex;
     justify-content: center;
